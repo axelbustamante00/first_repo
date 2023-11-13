@@ -116,8 +116,10 @@ Contar con la base de datos descripta en los siguientes archivos:
         La respuesta incluirá en **"data"** el album agregado en el formato antes mostrado.
 
         *Aclaracion:* 
-            Será necesario conocer la tabla de artistas para saber el id de artista deseado para ingresar en "id_artist".
-           A la fecha de escribir éste documento los artistas disponibles con su id son los siguientes:
+
+      Será necesario conocer la tabla de artistas para saber el id de artista deseado para ingresar en "id_artist".
+
+      A la fecha de escribir éste documento los artistas disponibles con su id son los siguientes:
       	- id_artist = 1  | artist_name = Charly García.
       	- id_artist = 2  | artist_name = León Gieco.
       	- id_artist = 7  | artist_name = Fito Páez.
