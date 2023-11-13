@@ -115,7 +115,7 @@ Contar con la base de datos descripta en los siguientes archivos:
         ```
         La respuesta incluirá en **"data"** el album agregado en el formato antes mostrado.
 
-        *Aclaracion:* 
+        ***Aclaracion:***
 
       Será necesario conocer la tabla de artistas para saber el id de artista deseado para ingresar en "id_artist".
 
