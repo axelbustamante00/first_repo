@@ -62,7 +62,7 @@ Contar con la base de datos descripta en los siguientes archivos:
         No se tomarán como válidos ningún otro valor que no sea **0** o **1** y en caso de que el valor ingresado sea distinto a los ya mencionados, se devolverá un mensaje de error de sintaxis.
 
         ```json
-        Por ejemplo: 
+        /*Por ejemplo: 
             BASE_URL/api/albums?selected=1
         Devolverá los albumes con valor 1 en la columna selected.
         ```
@@ -71,7 +71,7 @@ Contar con la base de datos descripta en los siguientes archivos:
         Este parámentro también recibe un **string** y devuelve una lista con todos los albums que sean del artista especificado. Cabe destacar que el mismo debe ser ingresado **respetando mayúsculas, minúsculas y la forma de escritura que tienen las URL's para caracteres especiales**. El ejemplo más usado en el proyecto es el espacio " " que deberá ser ingresado como "%20".
 
         ```json
-        Por ejemplo: 
+        /*Por ejemplo: 
             BASE_URL/api/albums?artista=León%20Gieco
         Devolverá los albumes que contengan como nombre de artista a "León Gieco".
         ```
@@ -83,9 +83,9 @@ Contar con la base de datos descripta en los siguientes archivos:
         - **?order** : Este parámetro recibe también un string que puede ser "asc", "desc" o los anteriores dos en mayúscula. Si es **asc** se ordenará la lista de manera **ascendente**. De ser **desc** se ordenara **descendientemente**. En caso de enviar otro valor se devolverá un mensaje de error de sintaxis. 
 
         ```json
-        Por ejemplo: 
+        //Por ejemplo: 
             BASE_URL/api/albums?sort=duration&order=desc
-        Devolverá los albumes en orden descendiente según su duración.
+        //Devolverá los albumes en orden descendiente según su duración.
         ```
 
     ##### - GET: /albums/:ID
