@@ -30,9 +30,8 @@ Esta API tiene como propósito acceder a los datos **(albums y artistas)** prese
 
 
 ### - Requerimientos
-Contar con la base de datos descripta en los siguientes archivos:
+Contar con la base de datos descripta en el siguiente archivo:
 - [*Ver archivo SQL*](./database/tpe_web_2.sql)
-- [*Ver diagrama DER*](./misc/db_diagram.png)
 
 ------------
 
